@@ -1,0 +1,7 @@
+# ignore madi
+# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+# .\.venv\Scripts\activate
+
+.venv/
+__pycache__/
+*.py[cod]
