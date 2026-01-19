@@ -1,1 +1,1 @@
-trajectory calculator/simulator made for my school project included aerodynamic (model) presets, advanced wind speed and density calculation and very good ui
+Advanced trajectory calculator/simulator which features aerodynamic (model) presets, crosswind physics, and very gud ui
