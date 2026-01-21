@@ -1,7 +1,7 @@
 # Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 # .\.venv\Scripts\activate
 
-# removes pycache and virtual environment file for smooooooth operation
+# removes pycache and virtual environment file for smoooooooth operation
 
 .venv/
 __pycache__/
