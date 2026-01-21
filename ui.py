@@ -34,7 +34,7 @@ class Window(QMainWindow):
             QTabBar::tab:selected { background: #222; color: #fff; border-bottom: 2px solid #00ff7f; }
         """)
         
-        # Tab 1: Controls
+        # controls
         t1 = QWidget()
         l1 = QVBoxLayout(t1)
         self.setup_controls(l1)
