@@ -1,6 +1,7 @@
-# ignore madi
 # Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 # .\.venv\Scripts\activate
+
+# removes pycache and virtual environment file for smooooooth operation
 
 .venv/
 __pycache__/

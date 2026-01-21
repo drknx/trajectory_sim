@@ -17,7 +17,7 @@ class Engine:
         dt = cfg['dt']
         g = cfg['g']
         
-        # init vectors
+        # initilize vectors
         rad = np.radians(angle)
         v = np.array([v0 * np.cos(rad), 0.0, v0 * np.sin(rad)])
         p = np.array([0.0, 0.0, 0.0])
@@ -31,7 +31,7 @@ class Engine:
             v_rel = v - w
             sp = np.linalg.norm(v_rel)
             
-            if sp > 0:
+            if sp > 0: # calc drag only if moving
                 drag = -0.5 * rho * (sp**2) * cd * area * (v_rel / sp)
             else:
                 drag = np.array([0.,0.,0.])
@@ -46,6 +46,6 @@ class Engine:
             self.vels.append(np.linalg.norm(v))
             self.times.append(t)
             
-            if p[2] < 0: break # crash
+            if p[2] < 0: break # exit
 
         return np.array(self.pts), self.vels, self.times
