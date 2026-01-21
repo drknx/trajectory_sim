@@ -1,4 +1,3 @@
-# physics.py
 import numpy as np
 from config import cfg
 
